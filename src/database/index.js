@@ -33,10 +33,17 @@ class Database {
     }
 
     mongo() {
-        this.mongoConnection = mongoose.connect(
-            'mongodb://192.168.99.100:27017/gobarber',
-            { useNewUrlParser: true, useFindAndModify: true }
-        );
+        // useNewUrlParser: true | por causa do formato da url abaixo utilizada
+        /**
+         * useFindAndModify: true | configuração do mongo para a maneira que será
+         *                          utilizado na hora de encontrando e modificando registros.
+         */
+
+        this.mongoConnection = mongoose.connect(process.env.MONGO_URL, {
+            useNewUrlParser: true,
+            useFindAndModify: true,
+            useUnifiedTopology: true,
+        });
     }
 }
 
