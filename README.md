@@ -19,21 +19,25 @@
 ![](https://img.shields.io/github/repo-size/thiagogualberto/gobarber-api.svg)
 [![](https://img.shields.io/github/last-commit/thiagogualberto/gobarber-api.svg?color=red)](https://github.com/thiagogualberto/gobarber-api/commits/master)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thiagogualberto/gobarber-api/blob/master/LICENSE.md)
+</br></br>
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarber%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fthiagogualberto%2Fgobarber-api%2Fmaster%2FREADME.md)
 </div>
+
 <p align="center">
   <a href="#man_technologist-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#thinking-contribution">Contribution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#pushpin-support">Support</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licenca">Licença</a>
+  <a href="#memo-licence">Licence</a>
 </p>
 </br>
 
 # :man_technologist: Project
 
 This project is a challenge of Rocketseat GoStack Bootcamp. It's a REST API built with NodeJS + Express. This API is a beauty service scheduling system that connects clients and providers.
+</br></br>
 
 # :rocket: Getting Started
 
@@ -77,8 +81,7 @@ $ yarn dev
 ```
 
 Importe o arquivo `Insomnia.json` no Insomnia ou clique no botão [Run in Insomnia](#insomniaButton)
-
----
+</br></br>
 
 # :clipboard: Features
 ## Funcionalities
@@ -123,8 +126,9 @@ This project was developed with the following technologies:
 - [Sequelize](https://sequelize.org/) - Promise-based Node.js ORM for Postgres
 - [Sucrase](https://github.com/alangpierce/sucrase) - Setting up the development environment
 - [VS Code](https://code.visualstudio.com/) with [Sucrase](https://github.com/alangpierce/sucrase) + [Nodemon](https://nodemon.io/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [EditorConfig](https://editorconfig.org/) + [Sequelize](https://sequelize.org/)
-- [Youch](https://www.npmjs.com/package/youch)
+- [Youch](https://www.npmjs.com/package/youch) - Pretty error reporting for Node.js
 - [Yup](https://www.npmjs.com/package/yup) - Validate the application's JSON fields.
+</br></br>
 
 # :thinking: Contribution
 
@@ -152,9 +156,7 @@ After your Pull Request is merged, can you delete your feature branch.
 ```
 
 You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project contact me by email or linkedin below and let's have a good chat.
-
----
-
+</br></br>
 
 # :pushpin: Support
 My name is Thiago de Medeiros Gualberto and my contacts are:
@@ -165,13 +167,14 @@ My name is Thiago de Medeiros Gualberto and my contacts are:
 Connect with me at LinkedIn.
 
 Thank you!
+</br></br>
 
-# :memo: Licença
+# :memo: Licence
 
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thiagogualberto/gobarber-api/blob/master/LICENSE)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
+</br></br>
 
 ---
 Made with ♥ Enjoy it!
