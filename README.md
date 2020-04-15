@@ -167,8 +167,8 @@ You can send how many PR's do you want, I'll be glad to analyse and accept them!
 # :pushpin: Support
 My name is Thiago de Medeiros Gualberto and my contacts are:
 
-- Email: thiago.gou@gmail.com
-- Linkedin at [Thiago Medeiros](https://www.linkedin.com/in/thiago-medeiros-7478816b/)
+* Email: <thiago.gou@gmail.com>
+* Linkedin at [Thiago Medeiros](https://www.linkedin.com/in/thiago-medeiros-7478816b/)
 
 Connect with me at LinkedIn.
 
@@ -177,7 +177,7 @@ Thank you!
 
 # :memo: Licence
 
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thiagogualberto/gobarber-api/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thiagogualberto/gobarber-api/blob/master/LICENSE.md)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 </br></br>
