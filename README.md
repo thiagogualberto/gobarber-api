@@ -8,21 +8,22 @@
     <!-- Descrição do projeto  -->
     Beauty service scheduling system - REST API built with Node.js
 </h3>
+
 </br>
+
 <div align="center">
 
 [![](https://img.shields.io/badge/made%20by-ThiagoGualberto-%237159C1)](https://www.linkedin.com/in/thiago-medeiros-7478816b/)
 [![](https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS)](https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1)
-![](https://img.shields.io/github/languages/top/thiagogualberto/gobarber-api.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/thiagogualberto/gobarber-api.svg?color=lightgrey)
-[![](https://api.codacy.com/project/badge/Grade/764eee83d7604873a9b06d37c4689523)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DanielObara/DesafioFastFeet&amp;utm_campaign=Badge_Grade)
+[![](https://api.codacy.com/project/badge/Grade/764eee83d7604873a9b06d37c4689523)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=thiagogualberto/gobarber-api&amp;utm_campaign=Badge_Grade)
 ![](https://img.shields.io/github/repo-size/thiagogualberto/gobarber-api.svg)
 [![](https://img.shields.io/github/last-commit/thiagogualberto/gobarber-api.svg?color=red)](https://github.com/thiagogualberto/gobarber-api/commits/master)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thiagogualberto/gobarber-api/blob/master/LICENSE.md)
 </br></br>
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=teste&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fthiagogualberto%2Fgobarber-api%2Fmaster%2FInsomnia_GoBarber.json)
-</div>
+<p id="insomniaButton" align="center">
+    <a href="https://insomnia.rest/run/?label=GoBarber%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fthiagogualberto%2Fgobarber-api%2Fmaster%2FInsomnia_GoBarber.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
 
 <p align="center">
   <a href="#man_technologist-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -32,6 +33,7 @@
   <a href="#pushpin-support">Support</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licence">Licence</a>
 </p>
+</div>
 </br>
 
 # :man_technologist: Project
@@ -56,7 +58,8 @@ $ docker run --name mongobarber -p 27017:27017 -d -t mongo
 # Create a container in 'redis' with the name of 'redisbarber'
 $ docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
 ```
-</br>From your command line:
+
+From your command line:
 
 ```bash
 # Clone this repo to your local machine using
@@ -80,54 +83,57 @@ $ yarn sequelize db:migrate
 $ yarn dev
 ```
 
-Importe o arquivo `Insomnia.json` no Insomnia ou clique no botão [Run in Insomnia](#insomniaButton)
+You can test this API in two ways:</br>
+* Import the `Insomnia_GoBarber.json` file into Insomnia or,
+* Click the button [Run in Insomnia](#insomniaButton)
 </br></br>
 
 # :clipboard: Features
+
 ## Funcionalities
-- User authentication with JWT
-- User registration (Create, Read, Update and Delete)
-- Sending files (User avatar)
-- Schedules
-    - List of service providers
-    - Service scheduling
-    - Validation of appointments
-    - Listing user schedules
-    - Pagination
-    - Listing provider's agenda
-- Sending notifications
-    - Notifying new appointments
-    - Listing user notifications
-    - Mark notifications as read
-- Cancellation and sending email
-    - Cancellation of scheduling
-    - Listing available times
+* User authentication with JWT
+* User registration (Create, Read, Update and Delete)
+* Sending files (User avatar)
+* Schedules
+  * List of service providers
+  * Service scheduling
+  * Validation of appointments
+  * Listing user schedules
+  * Pagination
+  * Listing provider's agenda
+* Sending notifications
+  * Notifying new appointments
+  * Listing user notifications
+  * Mark notifications as read
+* Cancellation and sending email
+  * Cancellation of scheduling
+  * Listing available times
 
 ## Build with (Technologies)
 
 This project was developed with the following technologies:
-- [Bcrypt](https://www.npmjs.com/package/bcrypt) - Generation of User Password Hash
-- [Bee Queue](https://github.com/bee-queue/bee-queue) - Redis-backed job queue for Node.js.
-- [date-fns](https://date-fns.org/) - JavaScript date utility library
-- [Docker](https://www.docker.com/docker-community) - Container
-- [DotEnv](https://www.npmjs.com/package/dotenv) - Loads environment variables
-- [EditorConfig](https://editorconfig.org/) - Setting up the development environment
-- [ESLint](https://eslint.org/) - JS Linter and code style
-- [Express](https://expressjs.com/pt-br/) - Router of the Application
-- [JWT](https://jwt.io/) - Authentication Json Web Token
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Mongoose](https://mongoosejs.com/) - Object Modeling + DB Connector
-- [Multer](https://github.com/expressjs/multer) - File Upload
-- [Nodemailer](https://nodemailer.com/about/) - Used to send emails
-- [Nodemon](https://nodemon.io/) - Process Manager used in the development
-- [Node.js](https://nodejs.org/en/) - Build the server
-- [PostgreSQL](https://www.postgresql.org/) - Database
-- [Prettier](https://prettier.io/) - Code Formatter
-- [Sequelize](https://sequelize.org/) - Promise-based Node.js ORM for Postgres
-- [Sucrase](https://github.com/alangpierce/sucrase) - Setting up the development environment
-- [VS Code](https://code.visualstudio.com/) with [Sucrase](https://github.com/alangpierce/sucrase) + [Nodemon](https://nodemon.io/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [EditorConfig](https://editorconfig.org/) + [Sequelize](https://sequelize.org/)
-- [Youch](https://www.npmjs.com/package/youch) - Pretty error reporting for Node.js
-- [Yup](https://www.npmjs.com/package/yup) - Validate the application's JSON fields.
+* [Bcrypt](https://www.npmjs.com/package/bcrypt) - Generation of User Password Hash
+* [Bee Queue](https://github.com/bee-queue/bee-queue) - Redis-backed job queue for Node.js.
+* [date-fns](https://date-fns.org/) - JavaScript date utility library
+* [Docker](https://www.docker.com/docker-community) - Container
+* [DotEnv](https://www.npmjs.com/package/dotenv) - Loads environment variables
+* [EditorConfig](https://editorconfig.org/) - Setting up the development environment
+* [ESLint](https://eslint.org/) - JS Linter and code style
+* [Express](https://expressjs.com/pt-br/) - Router of the Application
+* [JWT](https://jwt.io/) - Authentication Json Web Token
+* [MongoDB](https://www.mongodb.com/) - Database
+* [Mongoose](https://mongoosejs.com/) - Object Modeling + DB Connector
+* [Multer](https://github.com/expressjs/multer) - File Upload
+* [Nodemailer](https://nodemailer.com/about/) - Used to send emails
+* [Nodemon](https://nodemon.io/) - Process Manager used in the development
+* [Node.js](https://nodejs.org/en/) - Build the server
+* [PostgreSQL](https://www.postgresql.org/) - Database
+* [Prettier](https://prettier.io/) - Code Formatter
+* [Sequelize](https://sequelize.org/) - Promise-based Node.js ORM for Postgres
+* [Sucrase](https://github.com/alangpierce/sucrase) - Setting up the development environment
+* [VS Code](https://code.visualstudio.com/) with [Sucrase](https://github.com/alangpierce/sucrase) + [Nodemon](https://nodemon.io/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [EditorConfig](https://editorconfig.org/) + [Sequelize](https://sequelize.org/)
+* [Youch](https://www.npmjs.com/package/youch) - Pretty error reporting for Node.js
+* [Yup](https://www.npmjs.com/package/yup) - Validate the application's JSON fields.
 </br></br>
 
 # :thinking: Contribution
