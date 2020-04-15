@@ -21,7 +21,7 @@
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thiagogualberto/gobarber-api/blob/master/LICENSE.md)
 </br></br>
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarber%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fthiagogualberto%2Fgobarber-api%2Fmaster%2FREADME.md)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=teste&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fthiagogualberto%2Fgobarber-api%2Fmaster%2FInsomnia_GoBarber.json)
 </div>
 
 <p align="center">
