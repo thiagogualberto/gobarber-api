@@ -13,9 +13,8 @@
 
 <div align="center">
 
-[![](https://img.shields.io/badge/made%20by-ThiagoGualberto-%237159C1)](https://www.linkedin.com/in/thiago-medeiros-7478816b/)
+[![](https://img.shields.io/badge/made%20by-ThiagoGualberto-%237159C1)](https://www.linkedin.com/in/thiagogualberto84/)
 [![](https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS)](https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1)
-[![](https://api.codacy.com/project/badge/Grade/764eee83d7604873a9b06d37c4689523)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=thiagogualberto/gobarber-api&amp;utm_campaign=Badge_Grade)
 ![](https://img.shields.io/github/repo-size/thiagogualberto/gobarber-api.svg)
 [![](https://img.shields.io/github/last-commit/thiagogualberto/gobarber-api.svg?color=red)](https://github.com/thiagogualberto/gobarber-api/commits/master)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thiagogualberto/gobarber-api/blob/master/LICENSE.md)
@@ -168,7 +167,7 @@ You can send how many PR's do you want, I'll be glad to analyse and accept them!
 My name is Thiago de Medeiros Gualberto and my contacts are:
 
 * Email: <thiago.gou@gmail.com>
-* Linkedin at [Thiago Medeiros](https://www.linkedin.com/in/thiago-medeiros-7478816b/)
+* Linkedin at [Thiago Medeiros](https://www.linkedin.com/in/thiagogualberto84/)
 
 Connect with me at LinkedIn.
 
@@ -179,7 +178,7 @@ Thank you!
 
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thiagogualberto/gobarber-api/blob/master/LICENSE.md)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 </br></br>
 
 ---
