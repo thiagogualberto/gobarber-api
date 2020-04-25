@@ -128,6 +128,7 @@ This project was developed with the following technologies:
 * [Node.js](https://nodejs.org/en/) - Build the server
 * [PostgreSQL](https://www.postgresql.org/) - Database
 * [Prettier](https://prettier.io/) - Code Formatter
+* [Redis](https://redis.io/) - Database
 * [Sequelize](https://sequelize.org/) - Promise-based Node.js ORM for Postgres
 * [Sucrase](https://github.com/alangpierce/sucrase) - Setting up the development environment
 * [VS Code](https://code.visualstudio.com/) with [Sucrase](https://github.com/alangpierce/sucrase) + [Nodemon](https://nodemon.io/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [EditorConfig](https://editorconfig.org/) + [Sequelize](https://sequelize.org/)
